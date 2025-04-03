@@ -5,7 +5,7 @@ function Calcular() {
     
 
     
-    if (isNaN(peso) || isNaN(altura) || altura < 0.5 || altura > 2.5 || peso < 10 || peso > 300) {
+    if (isNaN(peso) || isNaN(altura) || altura < 0.5 || altura > 2.5 || altura < 0,5 || altura > 2,5 || peso < 10 || peso > 300) {
         res.innerHTML = "Por favor, insira valores válidos!";
         return;
     }
