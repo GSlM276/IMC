@@ -1,6 +1,6 @@
 function Calcular() {
-    let peso = parseFloat(document.getElementById("peso").value);
-    let altura = parseFloat(document.getElementById("Altura").value);
+   let peso = document.getElementById("peso").value.replace(".", ",");
+    let altura = document.getElementById("Altura").value.replace(".", ",");
     let res = document.getElementById('res');
     
 
