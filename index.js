@@ -1,3 +1,4 @@
+alert('Olá')
 function Calcular() {
    let peso = document.getElementById("peso").value.replace(",", ".");
     let altura = document.getElementById("Altura").value.replace(",", ".");
